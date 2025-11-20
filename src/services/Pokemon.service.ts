@@ -3,6 +3,7 @@ import type { Pokemon } from "../types/Pokemon.interface";
 
 const POKEMON_API_URL="https://pokeapi.co/api/v2/pokemon/";
 const MAX_POKEMON_COUNT=151;
+export const POKEMON_CHEAT_URL="https://www.pokemon.com/us/pokedex/";
 
 const getRandomPokemon=async(): Promise<Pokemon> =>{
     const randomId= getRandomIntInclusive(1,MAX_POKEMON_COUNT);

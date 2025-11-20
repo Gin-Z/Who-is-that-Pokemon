@@ -32,9 +32,10 @@ function App() {
             gameState={gameState}
             />
           <PokemonForm
-            handlePokemonNameSubmit={handlePokemonNameSubmit}
-            gameState={gameState}
-          />
+              handlePokemonNameSubmit={handlePokemonNameSubmit}
+              gameState={gameState}
+              pokemonName={pokemon?.name}
+            />
           <PokemonResult loadNewPokemon={loadNewPokemon}
             gameState={gameState}/>
         </div>

@@ -46,7 +46,7 @@ const PokemonForm = ({handlePokemonNameSubmit, gameState}:Props) => {
   </div>
   <div className="btn-group" role="group" aria-label="Third group">
     <button type="button" className="btn btn-info">
-      Hacer Trampas
+      Hacer Trampa
     </button>
   </div>
 </div>
